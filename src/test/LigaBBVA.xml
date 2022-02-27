@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE Liga SYSTEM "Liga.dtd">
+<Liga>
+<Partido>
+  <equipos tipo="equipo 1">
+      <NombreEquipo> Monterey </NombreEquipo>
+      <Puntuacion> 0 </Puntuacion>
+      <estadisticas>Desempeño</estadisticas>
+  </equipos>
+    <equipos tipo="equipo 2">
+        <NombreEquipo> Atletico San Luis </NombreEquipo>
+        <Puntuacion> 2 </Puntuacion>
+        <estadisticas>Desempeño</estadisticas>
+    </equipos>
+
+</Partido>
+</Liga>

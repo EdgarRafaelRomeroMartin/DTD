@@ -1,0 +1,12 @@
+<!ELEMENT Region (Descripcion,Fecha,Norte,Centro,Sur)*>
+        <!ELEMENT Descripcion (#PCDATA)>
+        <!ELEMENT Fecha (#PCDATA)>
+        <!ELEMENT Norte (Trimestre)*>
+        <!ELEMENT Trimestre (Trimestre1|Trimestre2|Trimestre3|Trimestre4)*>
+        <!ELEMENT Trimestre1 (LibrosVendidos)*>
+        <!ELEMENT LibrosVendidos (#PCDATA)>
+        <!ELEMENT Trimestre2 (LibrosVendidos)*>
+        <!ELEMENT Trimestre3 (LibrosVendidos)*>
+        <!ELEMENT Trimestre4 (LibrosVendidos)*>
+        <!ELEMENT Centro (Trimestre)*>
+        <!ELEMENT Sur (Trimestre)*>

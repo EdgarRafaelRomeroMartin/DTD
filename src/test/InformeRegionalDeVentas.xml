@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Region SYSTEM "Region.dtd">
+
+<Region>
+    <Descripcion>informe deventas para lasregiones Norte, Centro y Sur</Descripcion>
+    <Fecha>30/09/2021</Fecha>
+    <Norte>
+        <Trimestre>
+            <Trimestre1>
+                <LibrosVendidos>
+                    24000
+                </LibrosVendidos>
+            </Trimestre1>
+            <Trimestre2>
+                <LibrosVendidos>
+                    38600
+                </LibrosVendidos>
+            </Trimestre2>
+            <Trimestre3>
+                <LibrosVendidos>
+                    NO_INFO
+                </LibrosVendidos>
+            </Trimestre3>
+            <Trimestre4>
+                <LibrosVendidos>
+                    NO_INFO
+                </LibrosVendidos>
+            </Trimestre4>
+        </Trimestre>
+    </Norte>
+    <Centro>
+        <Trimestre>
+            <Trimestre1>
+                <LibrosVendidos>
+                    NO_INFO
+                </LibrosVendidos>
+            </Trimestre1>
+            <Trimestre2>
+                <LibrosVendidos>
+                    16080
+                </LibrosVendidos>
+            </Trimestre2>
+            <Trimestre3>
+                <LibrosVendidos>
+                    25000
+                </LibrosVendidos>
+            </Trimestre3>
+            <Trimestre4>
+                <LibrosVendidos>
+                    29000
+                </LibrosVendidos>
+            </Trimestre4>
+        </Trimestre>
+    </Centro>
+    <Sur>
+        <Trimestre>
+            <Trimestre1>
+                <LibrosVendidos>
+                    27000
+                </LibrosVendidos>
+            </Trimestre1>
+            <Trimestre2>
+                <LibrosVendidos>
+                    31400
+                </LibrosVendidos>
+            </Trimestre2>
+            <Trimestre3>
+                <LibrosVendidos>
+                    40100
+                </LibrosVendidos>
+            </Trimestre3>
+            <Trimestre4>
+                <LibrosVendidos>
+                    30000
+                </LibrosVendidos>
+            </Trimestre4>
+        </Trimestre>
+    </Sur>
+</Region>
+

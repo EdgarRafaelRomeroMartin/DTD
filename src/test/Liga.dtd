@@ -1,0 +1,8 @@
+<!ELEMENT Liga (Partido)*>
+        <!ELEMENT Partido (equipos)*>
+        <!ELEMENT equipos (NombreEquipo,Puntuacion,estadisticas)*>
+        <!ATTLIST equipos
+                tipo CDATA #REQUIRED>
+        <!ELEMENT NombreEquipo (#PCDATA)>
+        <!ELEMENT Puntuacion (#PCDATA)>
+        <!ELEMENT estadisticas (#PCDATA)>
